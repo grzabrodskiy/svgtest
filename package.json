@@ -9,18 +9,29 @@
     "web": "expo start --web",
     "eject": "expo eject"
   },
+  "resolutions": {
+    "svgo": "^2.8.0",
+    "@svgr/babel-preset": "^6.1.0",
+    "@svgr/plugin-jsx": "^6.1.2",
+    "@svgr/plugin-svgo": "^6.1.2"
+  },
   "dependencies": {
+    "@svgr/webpack": "^5.5.0",
     "expo": "~45.0.0",
     "expo-status-bar": "~1.3.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-native": "0.68.2",
-    "react-native-web": "0.17.7"
+    "react-native-svg": "12.3.0",
+    "react-native-web": "0.17.7",
+    "webpack-config": "^7.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@types/react": "~17.0.21",
     "@types/react-native": "~0.66.13",
+    "@expo/webpack-config": "^0.16.21",
+    "react-native-svg-transformer": "^1.0.0",
     "typescript": "~4.3.5"
   },
   "private": true
